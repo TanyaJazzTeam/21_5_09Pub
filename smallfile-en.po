@@ -2,6 +2,7 @@
 msgid "A screenshot of a website using AMP."
 msgstr ""
 
+[url=https://gitlocalize-staging.herokuapp.com/repo/1708/whole_project?utm_source=badge][img]https://gitlocalize-staging.herokuapp.com/repo/1708/whole_project /badge.svg[/img][/url]
 #: /views/partials/format-visuals/websites.j2:10
 msgid "A screenshot showing amp-sidebar."
 msgstr ""

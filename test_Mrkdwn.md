@@ -128,9 +128,6 @@ Finally, the AMPHTML ad boilerplate uses `amp-a4a-boilerplate` rather than
 `amp-boilerplate` so that validators can easily identify it and produce
 more accurate error messages to help developers.
 
-Note that the same rules about mutations to the boilerplate text apply as in
-the [general AMP boilerplate](https://github.com/ampproject/amphtml/blob/master/spec/amp-boilerplate.md).
-
 ### CSS <a name="css"></a>
 
 <table>

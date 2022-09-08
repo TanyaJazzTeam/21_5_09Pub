@@ -36,7 +36,7 @@ limitations under the License.
 
 *Si desea proponer cambios al estándar, comente la [Intención de implementar](https://github.com/ampproject/amphtml/issues/4264)* .
 
-## AMPHTML ad format rules <a name="amphtml-ad-format-rules"></a>
+## Reglas de formato de anuncios AMP HTML<a name="amphtml-ad-format-rules"></a> 11
 
 <table>
 <thead><tr>
@@ -93,7 +93,7 @@ content="vendor=adsense,type=impression-id,id=xIsjdf921S"&gt;</pre>
 </tbody>
 </table>
 
-### Boilerplate <a name="boilerplate"></a>
+### repetitivo<a name="boilerplate"></a> 22
 
 Las creatividades de anuncios AMP HTML requieren una línea de estilo repetitivo diferente y considerablemente más simple que [los documentos AMP generales](https://github.com/ampproject/amphtml/blob/master/spec/amp-boilerplate.md) :
 
@@ -107,7 +107,7 @@ Las creatividades de anuncios AMP HTML requieren una línea de estilo repetitivo
 
 *Justificación:* el estilo `amp-boilerplate` oculta el contenido del cuerpo hasta que el tiempo de ejecución de AMP esté listo y pueda mostrarlo. Si Javascript está deshabilitado o el tiempo de ejecución de AMP no se carga, el modelo predeterminado garantiza que el contenido finalmente se muestre independientemente. Sin embargo, en los anuncios AMP HTML, si Javascript está completamente deshabilitado, los anuncios AMP HTML no se ejecutarán y nunca se mostrará ningún anuncio, por lo que no es necesaria la sección `<noscript>` . En ausencia del tiempo de ejecución de AMP, la mayoría de la maquinaria en la que se basan los anuncios AMP HTML (p. ej., análisis para el seguimiento de la visibilidad o `amp-img` para la visualización de contenido) no estará disponible, por lo que es mejor no mostrar ningún anuncio que uno que no funcione correctamente.
 
-Finally, the AMPHTML ad boilerplate uses `amp-a4a-boilerplate` rather than `amp-boilerplate` so that validators can easily identify it and produce more accurate error messages to help developers.
+Por último, el texto estándar del anuncio AMP HTML utiliza `amp-a4a-boilerplate` lugar de `amp-boilerplate` para que los validadores puedan identificarlo fácilmente y producir mensajes de error más precisos para ayudar a los desarrolladores. 33
 
 ### CSS<a name="css"></a>
 
